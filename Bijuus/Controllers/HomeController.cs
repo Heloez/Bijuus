@@ -8,19 +8,24 @@ namespace Bijuus.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-    private readonly IBijuusService _pokeService;
-
-    public HomeController(ILogger<HomeController> logger)
+    private readonly IBijuusService _BijuusService;
+     public HomeController(ILogger<HomeController> logger, IBijuusService)
     {
         _logger = logger;
-        _pokeService
+        _BijuusService = _BijuusService;
     }
 
-    public IActionResult Index()
+    public IActionResult Index(string caracteristicas)
     {
-        return View();
+      var Bijuus = _BijuusService.BijuusDto();
+        ViewData["filter"] = string.IsNullOrEmpty(caracteristicas) ? "all" : caracteristicas;
+        return View(Bijuus);
     }
-
+    public IActionResult Details(int Numero)
+    {
+        var Bijuus = _BijuusService.GetDetailedBijuus(Numero);
+        return View(Bijuus);
+    }
     public IActionResult Privacy()
     {
         return View();

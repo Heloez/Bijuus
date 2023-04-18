@@ -1,8 +1,13 @@
+namespace Bijuus.Models;
 
-namespace Bijuus.Models
-{
-    public class Bijuusdxo
+    public class Bijuus
     {
-public List<Bijuus> Bijuus { get; set;}
+        // Atributos
+        public int caldas { get; set; }
+        public string nome { get; set; }
+        public string vila { get; set; }
+      
+        // Método Construtor
+        public Bijuus()
+      
     }
-}

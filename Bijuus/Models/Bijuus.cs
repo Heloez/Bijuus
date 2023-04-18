@@ -1,10 +1,10 @@
 namespace Bijuus.Models;
-public class Bijuus
+public class DetailsDto
 {
     //Atributos
-    public int caldas {get ; set; }
-    public string vila {get ; set; }
-    public string nome {get ; set; }
+    public Bijuus caldas {get ; set; }
+    public Bijuus vila {get ; set; }
+    public Bijuus nome {get ; set; }
 
 
 }
