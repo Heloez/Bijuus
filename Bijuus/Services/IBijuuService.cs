@@ -1,12 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Bijuus.Services
+using Bijuus.Models;
+namespace Bijuus.Services;
+public interface IBijuuServices
 {
-    public interface IBijuuService
-    {
-        
-    }
+
 }
