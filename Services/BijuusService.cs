@@ -6,7 +6,6 @@ namespace Bijuus.Services;
 public class BijuusService : IBijuuService.
 {
     private readonly IHttpContextAccessor _session;
-    private readonly string BijuusFile = @"Data\Bijuus.json";
     private readonly string caracteristicasFile = @"Data\caracteristicas.json";
 
     public BijuusService(IHttpContextAccessor session)
@@ -37,16 +36,15 @@ public BijuusDto GetBijuusDto()
     return Bijuus;
 }
 
-public DetailsDto GetDetailedbijuus(int Numero)
+public DetailsDto GetDetailedBijuus(int Numero)
 {
-    var Bijuus = Getbijuus();
+    var Bijuus = GetBijuus();
     var Bijuus = new DetailsDto()
     {
         Current = Bijuus.Where(p => p.Numero == Numero).FirstOrDefault(),
         Prior = Bijuus.OrderByDescending(p => p.Numero) .FirstOrDefault(p => p.Numero < Numero),
         Next = Bijuus.OrderBy(p => p.Numero) .FirstOrDefault(p => p.Numero > Numero),
     };
-    Bijuus.caracteristicas = Getcaracteristicas();
     return Bijuus;
 }
 

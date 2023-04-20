@@ -9,6 +9,7 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
     private readonly IBijuusService _BijuusService;
+
      public HomeController(ILogger<HomeController> logger, IBijuusService)
     {
         _logger = logger;
@@ -21,11 +22,13 @@ public class HomeController : Controller
         ViewData["filter"] = string.IsNullOrEmpty(caracteristicas) ? "all" : caracteristicas;
         return View(Bijuus);
     }
+
     public IActionResult Details(int Numero)
     {
         var Bijuus = _BijuusService.GetDetailedBijuus(Numero);
         return View(Bijuus);
     }
+    
     public IActionResult Privacy()
     {
         return View();
