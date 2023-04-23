@@ -1,0 +1,62 @@
+﻿[
+  {
+    "Numero": 1,
+    "Nome": "Kurama",
+    "Descricao": " foi uma das nove Bijū. Devido ao fato de durante séculos ter sido usado como uma ferramenta para a guerra e considerado um monstro que não sentia emoções, Kurama passou a odiar a humanidade.",
+    "Vila": ["Vila Oculta da Folha"]
+  },
+  {
+    "Numero": 2,
+    "Nome": "Gyūki",
+    "Descricao": " Existem vários tipos de ushi-oni, todos eles algum tipo de monstro tendo na cabeça chifres bovinos. Talvez o mais famoso ushi-oni surja como um símbolo de proteção na Ushi-oni- matsuri, que é realizada no final de julho em Uwajima da Prefeitura de Ehime.",
+    "Vila": ["Vila Oculta das Nuvens"]
+  },
+  {
+    "Numero": 3,
+    "Nome": "Chōmei",
+    "Descricao": "Chōmei é uma das 9 Bijūs existentes no Mundo Shinobi, conhecida como o Sétimo Sortudo, ela é a Besta de 7 Caudas, como todas as outras Bijūs, Chōmei surgiu nos últimos dias de vida de Hagoromo Ōtsutsuki, que havia separado o chakra do Dez Caudas em 9 partes, para que ele nunca fosse revivido novamente. Chōmei juntamente com as outras Bijūs, se separaram por causa da arrogância e do senso de poder de Kurama, que dizia sempre ser a mais forte pois tinha mais caudas e isso mostrava o poder de cada Bijū.",
+    "Vila": ["Vila Oculta dos Insetos"]
+  },
+
+  {
+    "Numero": 4,
+    "Nome": "Saiken",
+    "Descricao": "Saiken se assemelha a uma lesma branca, com um tom levemente azulado, bípede com braços e pés grossos. Como uma Besta com Cauda, ele ​​é extremamente gigantesco e maciço, superando completamente construções rochosas e florestas inteiras. Ele tem dois tentáculos ópticos (olhos) destacados e aberturas semelhantes a buracos como uma boca. Seu corpo inteiro é coberto por uma substância viscosa. Durante os últimos dias restantes do Eremita dos Seis Caminhos, Saiken se parecia, basicamente, como ele é atualmente, só que muito menor, mas ainda era muito maior do que o Eremita.",
+    "Vila": ["Vila Oculta do Som"]
+  },
+
+  {
+    "Numero": 5,
+    "Nome": "Kokuō",
+    "Descricao": "Kokuō assemelha-se principalmente com um cavalo branco, mas com cabeça de golfinho. Como uma Bijū, ela ​​é extremamente gigantesca e delgada, superando completamente florestas inteiras, sendo que rivaliza com Kurama (em sua forma completamente restabelecida) como a mais alta dentre seus irmãos. Ela tem dois chifres longos e três chifres pontudos (dois no anime) mais curtos na frente. As extremidades de seus chifres, cascos e caudas são marrom claro, com alguns pontos da mesma cor antes das áreas marrons. Ela também tem marcas vermelhas escuras sob seus olhos azul-esverdeados. Durante os últimos dias restantes do Eremita dos Seis Caminhos, Kokuō era muito menor do que é agora e seus chifres também eram mais curtos.",
+    "Vila": ["Vila Oculta das Nuvens"]
+  },
+
+  {
+    "Numero": 5,
+    "Nome": "Son Goku",
+    "Descricao": "Son Goku, cujo nome de nascimento é Kakarotto, é o protagonista da franquia Dragon Ball, criada por Akira Toriyama. Sua primeira aparição ocorreu no primeiro capítulo do mangá Dragon Ball, intitulado Bulma e Son Goku, publicado na revista Weekly Shōnen Jump em 3 de dezembro de 1984.",
+    "Vila": ["Vila Oculta da Pedra"]
+  },
+
+  {
+    "Numero": 6,
+    "Nome": "Isobu",
+    "Descricao": "Isobu assemelha-se principalmente a uma grande tartaruga, mas com uma casca semelhante a de um caranguejo, com espigões espalhados por todo o seu corpo, e três caudas semelhantes a de um camarão. Como uma Bijū, ele ​​é extremamente gigantesco e maciço, superando completamente construções rochosas e edifícios enquanto rivaliza em corpulência com Shukaku, Son Gokū e Gyūki. Todavia, em termos de estatura, ele é o mais baixo dentre seus irmãos. Sob a sua concha, o tecido de seus músculos é vermelho. Ele tem um par de braços e mãos semelhantes as humanas com longas unhas, no entanto não possuí patas traseiras. Seu rosto que possui também um semblante humano, fica escondido entre uma grande testa e maxilar inferior — sendo que ambos têm espigões. No mangá, seus olhos são vermelhos e têm pupilas cor carmesim enquanto no anime, são vermelhos com pupilas amarelas.",
+    "Vila": ["Vila Oculta da Névoa"]
+  },
+
+  {
+    "Numero": 7,
+    "Nome": "Matatabi",
+    "Descricao": "Matatabi é uma bakeneko que é totalmente envolvida em chamas azuis com marcações negras espalhadas pelo seu rosto, corpo e caudas. Como uma Bijū, ela ​​é extremamente gigantesca. Seu olho direito é amarelo e seu olho esquerdo é verde, semelhante a um gato de olho ímpar sem pupilas. Quando ela foi forçada por Tobi para se transformar, Matatabi ficou ainda mais imensa do que da vez que Yugito a liberou.[6] Durante os últimos dias restantes de vida do Eremita dos Seis Caminhos, Matatabi era um filhote de gato com chamas muito menores quando comparado ao seu eu atual, mas ainda era muito maior do que o Eremita.",
+    "Vila": ["Vila Oculta da Névoa"]
+  },
+
+  {
+    "Numero": 8,
+    "Nome": "Shukaku",
+    "Descricao": "hukaku é um tanuki de cor marrom-areia, com marcas negras (azul escuro no anime) de seu selo amaldiçoado espalhadas por todo o seu rosto, corpo e cauda. Como uma Bijū, ele ​​é extremamente gigantesco e maciço, sendo muitas vezes maior do que florestas inteiras e edifícios enquanto rivaliza em corpulência com Isobu, Son Gokū e Gyūki. Ele tem uma boca irregular, côncava e sem língua, com a esclera de seus olhos sendo preta, com íris amarela e com cada uma das pupilas tomando a forma de uma estrela preta de quatro pontas com quatro pontos pretos em torno dele. Durante os últimos dias do Eremita dos Seis Caminhos, o Shukaku em sua juventude se parecia, basicamente, como ele é atualmente, só que muito menor, com orelhas mais curtas e mais marcas espaçadas.",
+    "Vila": ["Vila Oculta da Areia"]
+  }
+]
