@@ -5,24 +5,29 @@
     "Descricao": " foi uma das nove Bijū. Devido ao fato de durante séculos ter sido usado como uma ferramenta para a guerra e considerado um monstro que não sentia emoções, Kurama passou a odiar a humanidade.",
     "Vila": ["Vila Oculta da Folha"]
   },
+
   {
     "Numero": 2,
     "Nome": "Gyūki",
     "Descricao": " Existem vários tipos de ushi-oni, todos eles algum tipo de monstro tendo na cabeça chifres bovinos. Talvez o mais famoso ushi-oni surja como um símbolo de proteção na Ushi-oni- matsuri, que é realizada no final de julho em Uwajima da Prefeitura de Ehime.",
-    "Vila": ["Vila Oculta das Nuvens"]
+    "Vila": ["Vila Oculta das Nuvens"],
+    "imagem": "\\img\\personagens\\Gyukii.png"
   },
+
   {
     "Numero": 3,
     "Nome": "Chōmei",
     "Descricao": "Chōmei é uma das 9 Bijūs existentes no Mundo Shinobi, conhecida como o Sétimo Sortudo, ela é a Besta de 7 Caudas, como todas as outras Bijūs, Chōmei surgiu nos últimos dias de vida de Hagoromo Ōtsutsuki, que havia separado o chakra do Dez Caudas em 9 partes, para que ele nunca fosse revivido novamente. Chōmei juntamente com as outras Bijūs, se separaram por causa da arrogância e do senso de poder de Kurama, que dizia sempre ser a mais forte pois tinha mais caudas e isso mostrava o poder de cada Bijū.",
-    "Vila": ["Vila Oculta dos Insetos"]
+    "Vila": ["Vila Oculta dos Insetos"],
+    "imagem": "\\img\\personagens\\Choumeii.png"
   },
 
   {
     "Numero": 4,
     "Nome": "Saiken",
     "Descricao": "Saiken se assemelha a uma lesma branca, com um tom levemente azulado, bípede com braços e pés grossos. Como uma Besta com Cauda, ele ​​é extremamente gigantesco e maciço, superando completamente construções rochosas e florestas inteiras. Ele tem dois tentáculos ópticos (olhos) destacados e aberturas semelhantes a buracos como uma boca. Seu corpo inteiro é coberto por uma substância viscosa. Durante os últimos dias restantes do Eremita dos Seis Caminhos, Saiken se parecia, basicamente, como ele é atualmente, só que muito menor, mas ainda era muito maior do que o Eremita.",
-    "Vila": ["Vila Oculta do Som"]
+    "Vila": ["Vila Oculta do Som"],
+    "imagem": "\\img\\personagens\\Saiken-6.png"
   },
 
   {
