@@ -11,7 +11,7 @@
                 <button id="btn-all" class="btn btn-lg my-2 text-white bg-secondary btn-filter"onclick="filter('all')">Ver Todos</button>
                 @foreach (var vila in Model.Vilas)
                 {
-                    <button id="btn-@vila.Nome.ToLower()" class="btn btn-sm my-2 text-white btn-filter" onclick="filter('@vila.Nome.ToLower()')" style="background-color:@vila.Cor">@vila.Nome</button>
+                    <button id="btn-@vila.Nome.ToLower()" class="btn btn-sm my-2 text-white btn-filter" onclick="filter('@vila.Nome.ToLower().Replace(" ", "-")')" style="background-color:@vila.Cor">@vila.Nome</button>
                 }
             </div>
         </div>
@@ -27,7 +27,7 @@
             @foreach (var personagem in Model.Personagens)
             {
                 <div class="col">
-                    <div class="card shadow-sm cursor-pointer @string.Join(' ',personagem.Vila).ToLower()" onclick="GetInfo(@personagem.Numero)">
+                    <div class="card shadow-sm cursor-pointer @string.Join(' ',personagem.Vila).ToLower().Replace(" ", "-")" onclick="GetInfo(@personagem.Numero)">
                         <img src="@personagem.Imagem" class="card-img-top" width="100%"height="300" alt="@personagem.Nome"/>
                         <div class="card-body">
                             <p class="card-text mb-0">Nº @personagem.Numero.ToString("000")</p>
